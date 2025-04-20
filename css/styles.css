@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 header {
-    background: url('/images/Kalinkina-60.jpeg') no-repeat center center;
+    background: url('./images/Kalinkina-60.jpeg') no-repeat center center;
     background-size: cover;
     color: white;
     display: flex;
@@ -60,7 +60,7 @@ section p {
 }
 
 .date_section{
-    background: url('/images/Kalinkina-91.jpg') no-repeat center center;
+    background: url('./images/Kalinkina-91.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
