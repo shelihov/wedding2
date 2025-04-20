@@ -1,0 +1,135 @@
+/* Общие стили */
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #a68d5e;
+    background-color: antiquewhite;
+}
+
+h1, h2 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+header {
+    background: url('/images/Kalinkina-60.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4rem 1rem;
+    text-align: center;
+    height: 100vh;
+}
+
+header h1 {
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Секции */
+section {
+    padding: 2rem 3rem;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;;
+    border-bottom: 1px solid #a68d5e;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.date_section{
+    background: url('/images/Kalinkina-91.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4rem 1rem;
+    text-align: center;
+    height: 100vh;
+}
+
+#date {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.adress {
+    font-family: italic;
+    font-size: 1rem;
+}
+.location-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+/* Тайминг */
+#timing ul {
+    list-style: none;
+    padding: 0;
+}
+
+#timing li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Подсказки */
+.tip {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.tip img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(to right, #a68d5e, #d1b175);
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Адаптивность 
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 1.5rem 1rem;
+    }
+} */
